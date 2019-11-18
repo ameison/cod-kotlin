@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    tools:background="#00AA00">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_details"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/activity_margin"
+        tools:background="#FF0000">
+
+        <ImageView
+            android:id="@+id/image_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="top|center_horizontal"
+        android:minHeight="@dimen/text_section_min_height"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin"
+        tools:background="#660000FF">
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/quicksand_bold"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textColor="@android:color/white"  />
+
+        <TextView
+            android:id="@+id/textview_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/quicksand_bold_italic"
+            android:layout_marginTop="@dimen/margin_between_title_and_description"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"  />
+    </LinearLayout>
+</RelativeLayout>

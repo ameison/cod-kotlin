@@ -1,0 +1,9 @@
+Id del proyecto-platcar, sirve para usar GCM.
+<string name="project_id"></string>
+
+Key para poder recibir las notificaciones GCM
+<string name="android_package_key"></string>
+
+Id de la app en fb, es unico para cada empresa y sirve para el login.
+<string name="facebook_app_id"></string>
+

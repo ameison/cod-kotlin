@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/pinUbicacion"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:contentDescription="@string/contentDescription"
+            android:src="@mipmap/map_marker" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"  >
+
+            <Button
+                android:id="@+id/mostrarLista"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/bg_btn_celeste"
+                android:drawableStart="@mipmap/icon_mostrarlista"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/mostrar_lista"
+                android:textAllCaps="false"
+                android:textColor="@color/cns_blanco"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutGeolito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/mostrarLista"
+                android:gravity="end"
+                android:layout_marginEnd="12dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/geolito"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="end"
+                    android:contentDescription="@string/contentDescription"
+                    android:src="@mipmap/geolito" />
+
+                <ImageView
+                    android:id="@+id/cerrar_geolito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/contentDescription"
+                    android:src="@mipmap/cerrar_btn" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        android:background="@drawable/box_gris"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/btnSelectCategory"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/contentDescription"
+            android:padding="6dp"
+            android:src="@mipmap/filter_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblNomCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/estrella_icono"
+                android:textColor="@color/cns_celeste" />
+
+            <EditText
+                android:id="@+id/txtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/que_deseas_encontrar"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/cns_azul"
+                app:fontFamily="@font/quicksand_italic" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgBuscar"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/contentDescription"
+            android:padding="6dp"
+            android:src="@mipmap/search" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/pnlGpsMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#dd000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/gpsNoActivo"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/gpsRequerido"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/activateGps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn_celeste"
+            android:text="@string/activar"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

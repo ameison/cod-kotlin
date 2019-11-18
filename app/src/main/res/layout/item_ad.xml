@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"  >
+
+    <RelativeLayout
+        android:id="@+id/lyYourDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/cns_celeste"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_below="@+id/tvNombre"
+            app:fontFamily="@font/quicksand_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvPrecio"
+            android:layout_below="@+id/tvDescripcion"
+            app:fontFamily="@font/quicksand_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cns_rojo"
+            android:textSize="15sp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="colorPrimary">@color/cns_celeste</item>
+        <item name="colorPrimaryDark">@color/cns_celeste</item>
+        <item name="colorAccent">@color/cns_celeste</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="AppTheme">
+        <item name="colorControlNormal">@color/cns_plomo</item>
+        <item name="colorControlActivated">@color/cns_celeste</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/cns_plomo</item>
+        <item name="colorControlActivated">@color/cns_rojo</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "687812413239",
+    "firebase_url": "https://pipla-hub.firebaseio.com",
+    "project_id": "pipla-hub",
+    "storage_bucket": "pipla-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687812413239:android:ab8b89aa4b229fb0",
+        "android_client_info": {
+          "package_name": "com.abcdroid.pipla.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687812413239-i5ob3mov0t27r50b46ng3crt5u34mbb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abcdroid.pipla.android",
+            "certificate_hash": "cd43856e4d24d5c50c298cf6d76f12c2d48dc1b2"
+          }
+        },
+        {
+          "client_id": "687812413239-pmc16025kmeeti55p3s3vgdcok7buemp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJrlXZcpneIUwJO0q1yQFO66mXE4P2vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687812413239-pmc16025kmeeti55p3s3vgdcok7buemp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

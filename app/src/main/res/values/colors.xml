@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- colores base -->
+
+    <color name="celeste">#54b3e3</color>
+
+
+    <color name="cns_celeste">#008bc2</color>
+    <color name="cns_celeste_bajo">#82c7e2</color>
+    <color name="cns_azul">#3c485c</color>
+    <color name="cns_turquesa">#00f8d2</color>
+
+    <color name="cns_rojo">#fa5750</color>
+    <color name="cns_blanco">#fff</color>
+    <color name="cns_plomo">#ccc9c9</color>
+    <color name="cns_plomo2">#FAF9F9</color>
+    <color name="cns_gris">#848383</color>
+
+    <!-- Components-->
+    <color name="black_transparent">#14000000</color>
+    <color name="active_indicator">@android:color/white</color>
+    <color name="inactive_indicator">#4D000000</color>
+
+    <color name="colorControlNormal">#e1e1e1</color>
+    <color name="colorControlActivated">#e6e5e5</color>
+    <color name="colorControlHighlight">#aad8eb</color>
+
+    <!-- Intros -->
+    <color name="circulo_normal">#aad8eb</color>
+    <color name="circulo_seleccionado">#008bc2</color>
+
+</resources>

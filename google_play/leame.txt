@@ -1,0 +1,44 @@
+*****
+alias : conectados
+clave : 20112018
+*****
+
+1.- Generar keystore jks
+clave : 20112018
+2.- keytool -genkey -v -keystore conectados.keystore -alias conectados -keyalg RSA -keysize 2048 -validity 10000
+
+
+*********** Para Facebook ***********    
+
+***************
+Windows Dev :
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+Windows Pro: Ejecutar en windows desde carpeta java bin 
+keytool -exportcert -alias conectados -keystore D:\abcdroid_aplicaciones\ASF003 - Conectados\asf003_android\conectados.jks | openssl sha1 -binary | openssl base64
+***************
+
+***************
+Linux Dev ::
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+Linux Pro ::
+keytool -exportcert -alias conectados -keystore conectados.jks | openssl sha1 -binary | openssl base64
+***************
+
+Clave generada en windows:::::
+Dev :: YTzWk0lX3r5l5hydFZZxKu5U+C4=
+Pro :: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Clave generada en Linux ::
+Dev :: qbVxOyyMZIx6QIq4XGpeX0WxgbE=
+Pro :: jE4e3uK/xF4lO4isAM8ieZPkxs0=
+Pro2 : yUNfl6jLtK8H9Pt//wnk2RX1Fto=
+
+Generado con .der
+nqbKIP5JESfLp6RxsBQMvelNxSM=
+
+Final:
+YTzWk0lX3r5l5hydFZZxKu5U+C4= yyW8UumrcZ9TRXJeCEVh54+9ZTA=
+
+--------------
+echo CB:25:BC:52:E9:AB:71:9F:53:45:72:5E:08:45:61:E7:8F:BD:65:30 | xxd -r -p | openssl base64
+Sale >> yyW8UumrcZ9TRXJeCEVh54+9ZTA=

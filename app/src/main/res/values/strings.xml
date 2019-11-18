@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- List of particular credentials and data -->
+    <string name="app_name">Pico y Placa</string>
+    <string name="registrar_vehiculo">Registrar Vehículo</string>
+
+
+    <string name="culqi_key">data_temporal</string>
+    <string name="active_menuitems">0123456</string>
+    <string name="tipo_pasarela">none</string>
+    <string name="title_activity_mapper">activity_mapper</string>
+
+    <!-- List of generic strings-->
+    <string-array name="navigation_items_array">
+        <item>0,Inicio,icomenu_inicio</item>
+        <item>1,Anunciar,icomenu_anuncio</item>
+        <item>2,Mis anuncios,icomenu_misanuncios</item>
+        <item>3,Mis llamadas,icomenu_llamadas</item>
+        <item>4,Mis mensajes,icomenu_mensajes</item>
+        <item>5,Mi Perfil,icomenu_miperfil</item>
+        <item>6,Acerca de ,icomenu_acercade</item>
+    </string-array>
+
+    <string-array name="categories_array">
+        <item>Compras/Ventas</item>
+        <item>Alquileres</item>
+        <item>Servicios</item>
+        <item>Empleos</item>
+        <item>Obsequios</item>
+    </string-array>
+
+    <string name="op_inicio">Inicio</string>
+    <string name="mensaje_enviado">Mensaje enviado</string>
+    <string name="op_anunciar">Anunciar</string>
+    <string name="op_anunciar_edit">Editar Anuncio</string>
+    <string name="op_misanuncios">Mis anuncios</string>
+    <string name="op_misllamadas">Mis llamadas</string>
+    <string name="op_mensajes">Mis mensajes</string>
+    <string name="op_perfil">Mi Perfil</string>
+    <string name="op_acercade">Acerca de</string>
+
+    <string name="anuncios">Anuncios</string>
+    <string name="pf_seleccione_categoria">Por favor, seleccione una categoría</string>
+    <string name="regla_completar_perfil">Requisitos para anunciar</string>
+    <string name="completar_perfil">Para poder publicar anuncios en
+        Conectados.app necesitas agregar una foto y una ubicación para que
+        las personas interesadas en tus anuncios calculen que tan cerca se encuentram de ti.</string>
+    <string name="geotipo_aprovecha">Aprovecha esta APP para publicar tus anuncios geolocalizados en todas nuestras
+categorías y haz que todos te vean.</string>
+    <string name="completar_perfil_ahora">Completar perfil ahora</string>
+    <string name="llamar">Llamar</string>
+    <string name="ver_ubicacion">Ubicación</string>
+    <string name="categoria">Categoría</string>
+    <string name="selecciona_categoria">Seleccione categoría</string>
+    <string name="selecciona_subcategoria">Seleccione subcategoría</string>
+    <string name="mensaje_geotips">GEOTIPS</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="about_quees"><b>¿Qué es Conectados.app?</b></string>
+    <string name="geotip_1">¡Recuerda! no podrás colocar ningún anuncio en la APP, si no registras tu ubicación.</string>
+    <string name="geotip_2">¿Sabias que? Por lanzamiento, podrás publicar más de un anuncio en cualquier categoría GRATIS.</string>
+    <string name="geotip_3">Poner tu foto real y clara aumentará la confianza en tus clientes.</string>
+
+    <string name="about">Conectados.app es una aplicación móvil y la mejor opción para publicar
+        tus anuncios de manera geolocalizada, de manera que tus clientes te encontrarán mucho más rápido.\n\nConectados.app
+        te permite publicar anuncios de ventas, alquileres, servicios, ofertas laborales y hasta regalar lo que ya no usas.\n\nEncuentra todo lo que busques, y anuncia todo lo que ofreces, ahorrando dinero y tiempo.
+    </string>
+    <string name="hello">Hola,</string>
+    <string name="no_hay_llamadas">No has realizado llamadas</string>
+    <string name="no_hay_mensajes">No has enviado mensajes</string>
+    <string name="escribe_texto">Escribe un mensaje</string>
+    <string name="location_null">No podemos atender su solicitud pues no hay señal GPS.</string>
+    <string name="tyc">Al ingresar aceptas los <font color='#f7e8c7'><u><b>terminos y condiciones</b></u></font> de nuestro servicio</string>
+    <string name="anucio_publicado">Tu anuncio se publicó exitosamente</string>
+    <string name="foto_proveedor_guardado">La foto se registró exitosamente</string>
+    <string name="agregar_foto_perfil">Agregar mi Foto</string>
+    <string name="actualizar_foto_perfil">Actualizar mi Foto</string>
+    <string name="ads_title">Título</string>
+    <string name="ingrese_mum_celu">Ingrese su número de celular</string>
+    <string name="maximo_3_fotos">Puedes subir un máximo de 3 fotos.</string>
+    <string name="calificacion_vendedor">Calificación del Vendedor</string>
+    <string name="seleccione_categoria">Seleccione una categoría</string>
+    <string name="ads_desc">Descripción</string>
+    <string name="busquedas_en_3km"><u>Búsquedas en un radio de 3km</u></string>
+    <string name="ads_price">Precio</string>
+    <string name="mi_referencia">Agregar mi Ubicación</string>
+    <string name="update_referencia">Actualizar mi Ubicación</string>
+    <string name="referencia_guardada">Tu Ubicación se guardó exitosamente</string>
+    <string name="reconfirm">Publicar ahora</string>
+    <string name="email_error">El correo ingresado no existe</string>
+    <string name="noAds">No tienes anuncios</string>
+    <string name="ads_list">Lista de anuncios</string>
+    <string name="destaca_tu_anuncio">Destaca tu anuncio</string>
+    <string name="compra_tu_anuncio">Compra más anuncios</string>
+
+    <string name="listo">Entendido</string>
+    <string name="introduce_your_mail">Ingresa tu correo</string>
+    <string name="introduce_your_password">Ingresa tu contraseña</string>
+    <string name="login_facebook">Conectar con</string>
+    <string name="welcome_back">Bienvenido de nuevo</string>
+    <string name="enter">Ingresar</string>
+    <string name="solicitar_recupracion">Enviar mensaje</string>
+
+    <string name="login">Iniciar sesión</string>
+    <string name="mostrar_lista">Mostrar Lista</string>
+
+    <string name="update_pass">Cambiar mi contraseña</string>
+    <string name="ubicacion_anuncio">Ubicación del Anuncio</string>
+    <string name="update_my_loc">Actualizar mi ubicación</string>
+    <string name="name_field">Ingresa tu nombre</string>
+    <string name="lastname_field">Ingresa tu apellido</string>
+
+    <string name="numero_placa">Ingresa numero de placa</string>
+    <string name="email_field">Ingresa numero de placa</string>
+    <string name="movil_field">Móvil</string>
+    <string name="code_verify">Ingresa tu código de verificación</string>
+    <string name="pass_field">Ingresa tu contraseña</string>
+    <string name="reppass_field">Repetir contraseña</string>
+    <string name="select_country">Selecciona tu país</string>
+    <string name="ac_antiguo_password">Ingrese su contraseña actual</string>
+    <string name="debe_seleccionar_una_cat">Debe seleccionar una categoría</string>
+    <string name="ac_nuevo_password">Ingrese su nueva contraseña</string>
+    <string name="ac_reptido_nc">Repita su contraseña</string>
+    <string name="contentDescription">Es una imagen</string>
+    <string name="btn_pin">Finalizar registro</string>
+    <string name="btn_reenviar_msj">REENVIAR CÓDIGO</string>
+    <string name="gpsNoActivo">GPS DESHABILITADO</string>
+    <string name="gpsRequerido">Por favor, activa tu GPS para ubicarte</string>
+    <string name="que_deseas_encontrar">¿Qué deseas encontrar?</string>
+    <string name="change_pass">Cambiar Contraseña</string>
+    <string name="activar">ACTIVAR</string>
+    <string name="close_sesion">Cerrar sesión</string>
+    <string name="crash_btn">Crash button</string>
+    <string name="cancel">Cancelar</string>
+    <string name="que_servicio_desea_ofrecer">¿Que servicio desea ofrecer?</string>
+    <string name="noEstablecido">No establecido</string>
+    <string name="search">Buscar</string>
+    <string name="error_password">La contraseña es incorrecta</string>
+    <string name="error_interno">Error interno comuniquese con los operadores.</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="omitir">Omitir</string>
+    <string name="siguiente">></string>
+
+    <string name="productos_servicios">Productos y servicios</string>
+    <string name="productos_servicios_desc">Ofrecer productos y servicios en tu localidad nunca fue tan fácil.</string>
+    <string name="compras">Compras</string>
+    <string name="compras_desc">Encuentra productos, servicios, alquileres, ofertas laborales y obsequios en un solo lugar.</string>
+    <string name="alquilres_y_laborales">Alquileres y laborales</string>
+    <string name="alquilres_y_laborales_desc">\u00BFTienes algo para alquilar?\n&#191;Quieres ofrecer algún trabajo?\n
+        Esta es la app que esperabas.</string>
+    <string name="obsequios">Obsequios</string>
+    <string name="obsequios_desc">&#191;Tienes algo que ya no necesitas?\nObséquialo, comparte con quien más lo necesite.</string>
+
+    <string name="drawer_open">Seleccione</string>
+    <string name="drawer_close">Menú Principal</string>
+    <string name="message">MENSAJE</string>
+    <string name="internet_cnx_error">Para poder usar nuestro servicio requieres de una conexión a internet.</string>
+    <string name="agreed">Entendido</string>
+    <string name="server_problem">Problemas en el servidor.</string>
+    <string name="network_problem">Problemas en la red.</string>
+    <string name="problem_guardando_anuncio">Problema guardando anuncio, intente de nuevo en 5 minutos.</string>
+    <string name="waitPlease">Espere por favor</string>
+    <string name="waitPleaseLoadImage">Cargando imágenes, espere por favor</string>
+    <string name="change_pass_succes">Se actualizo su contraseña exitosamente</string>
+    <string name="reg_cliente_no_registrado">Cliente no registrado.</string>
+    <string name="change_pass_incorrect">Contraseña antigua incorrecta</string>
+    <string name="change_pass_failed">Su contraseña no se pudo actualizar, intente nuevamente</string>
+    <string name="change_pass_not_c">La nueva contraseña no conincide con la repetición</string>
+    <string name="change_pass_old_req">Ingrese todos los campos para poder continuar</string>
+    <string name="confirmCloseSession">Está a punto de cerrar la sesión, presione el botón aceptar si está de acuerdo.</string>
+    <string name="ExitCloseSession">Sesión finalizada</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="bienvenido">"Bienvenido "</string>
+    <string name="login_started">Inicio de sesión</string>
+    <string name="correo_obligatorio">Correo obligatorio</string>
+    <string name="contrasena_no_coincide">Las contraseñas no coinciden</string>
+    <string name="correo_exist">El correo ingresado ya está en uso</string>
+    <string name="phone_exist">El número de teléfono ya está en uso</string>
+    <string name="telef_exist">El teléfono ingresado ya está en uso</string>
+    <string name="zipname_not_found">No recibimos tu zip catsList, asegurate de estar usando un chip</string>
+    <string name="error_formato_email">El formato del email es inválido</string>
+    <string name="error_formato_nombre">El formato del nombre es inválido</string>
+    <string name="error_formato_apellido">El formato del apellido es inválido</string>
+    <string name="error_formato_telefono">El formato del telefono es inválido</string>
+    <string name="nombres_obligatorios">Los nombres son obligatorio</string>
+    <string name="celular_obligatorio">Número de celular obligatorio</string>
+    <string name="contrasena_corta">La contraseña debe tener 6 caracteres como mínimo</string>
+    <string name="correo_clave_oblogatorios">Correo y/o contraseña obligatorios.</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="msg_pronto_destaca_anuncios">Pronto podrás destacar tu anuncio</string>
+    <string name="msg_pronto_compra_anuncios">Pronto podrás comprar más anuncios</string>
+    <string name="msg_recuperar_login">¿Olvidaste tu contraseña?</string>
+    <string name="msg_recuperar_pwd">Recuperar contraseña</string>
+    <string name="msg_recuperar_pwd_desc">Enviaremos un mensaje con tus datos actuales al correo que escribas
+    a continuación previa validación.</string>
+
+    <!-- List of generic credentials - no translatables -->
+    <string-array name="CountryCodes" translatable="false">
+        <item>54,AR</item>
+        <item>591,BO</item>
+        <item>55,BR</item>
+        <item>1,CA</item>
+        <item>56,CL</item>
+        <item>57,CO</item>
+        <item>506,CR</item>
+        <item>53,CU</item>
+        <item>593,EC</item>
+        <item>503,SV</item>
+        <item>500,FK</item>
+        <item>33,FR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>592,GY</item>
+        <item>594,GF</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>39,IT</item>
+        <item>52,MX</item>
+        <item>505,NI</item>
+        <item>507,PA</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>1,US</item>
+        <item>1,PR</item>
+        <item>34,ES</item>
+        <item>597,SR</item>
+        <item>44,GB</item>
+        <item>598,UY</item>
+        <item>58,VE</item>
+        <item>1,DO</item>
+    </string-array>
+
+    <string name="facebook_app_id" translatable="false">231860661052049</string>
+    <string name="fb_login_protocol_scheme">fb231860661052049</string>
+    <string name="google_project_id" translatable="false">740847202152</string>
+    <string name="default_notification_channel_id">conectados_channel_default</string>
+    <string name="default_notification_channel_name">Canal de notificaciones de la App</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+
+</resources>
+
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/formAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:textColor="@color/cns_rojo"
+            android:enabled="false"
+            app:fontFamily="@font/quicksand_bold"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/imageGallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:orientation="horizontal"
+                android:padding="5dp">
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ads_desc"
+            android:textColor="@color/cns_celeste"
+            app:fontFamily="@font/quicksand_bold"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cns_azul"
+            android:enabled="false"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:fontFamily="@font/quicksand_bold"
+            android:text="@string/ads_price"
+            android:textColor="@color/cns_celeste"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:textColor="@color/cns_rojo"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            app:fontFamily="@font/quicksand_bold"
+            android:layout_height="wrap_content"
+            android:text="@string/calificacion_vendedor"
+            android:textColor="@color/cns_celeste"
+            android:textSize="18sp"/>
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/RatingBar"
+            android:layout_gravity="left"
+            android:numStars="5"
+            android:stepSize="0.1"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:isIndicator="true" />
+
+        <Button
+            android:id="@+id/btnVerUbicacion"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:text="@string/ver_ubicacion"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/quicksand_bold"
+            android:background="@drawable/bg_btn_celeste"  />
+
+        <Button
+            android:id="@+id/btnLlamar"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:text="@string/llamar"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/quicksand_bold"
+            android:background="@drawable/bg_btn_celeste"  />
+
+        <Button
+            android:id="@+id/btnEnviarMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="2dp"
+            app:fontFamily="@font/quicksand_bold"
+            android:background="@drawable/bg_btn_celeste"
+            android:textColor="@android:color/white"
+            android:text="@string/mensaje"  />
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

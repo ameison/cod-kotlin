@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgPhotoClient"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/upload_pic" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/quicksand_bold" />
+
+                <TextView
+                    android:id="@+id/tvPhoneUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/quicksand_regular" />
+
+                <TextView
+                    android:id="@+id/tvEmailUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/cns_celeste"
+                    app:fontFamily="@font/quicksand_regular" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/busquedas_en_3km"
+                    android:textColor="@color/cns_celeste"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/quicksand_regular" />
+
+                <TextView
+                    android:id="@+id/tvDateCreated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:visibility="gone"
+                    app:fontFamily="@font/quicksand_regular" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_borde_celeste"
+                android:text="@string/agregar_foto_perfil"
+                android:textAllCaps="false"
+                android:textColor="@color/cns_celeste"
+                app:fontFamily="@font/quicksand_bold" />
+
+            <Button
+                android:id="@+id/btnAddReference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_borde_celeste"
+                android:text="@string/mi_referencia"
+                android:textAllCaps="false"
+                android:textColor="@color/cns_celeste"
+                app:fontFamily="@font/quicksand_bold" />
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_borde_celeste"
+                android:text="@string/change_pass"
+                android:textAllCaps="false"
+                android:textColor="@color/cns_celeste"
+                app:fontFamily="@font/quicksand_bold" />
+
+
+            <Button
+                android:id="@+id/btnCloseSesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_btn_celeste"
+                android:text="@string/close_sesion"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                app:fontFamily="@font/quicksand_bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

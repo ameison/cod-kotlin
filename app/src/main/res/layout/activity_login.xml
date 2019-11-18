@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/celeste"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <ImageView
+            android:id="@+id/myLogo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/contentDescription"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo_index" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/contentDescription"
+                android:src="@mipmap/menu_email" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:paddingBottom="20dp"
+                android:textColor="@color/cns_blanco"
+                android:textColorHint="@color/cns_blanco"
+                android:layout_marginStart="10dp"
+                android:layout_weight="18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                style="@style/Widget.AppCompat.EditText"
+                android:hint="@string/introduce_your_mail"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnRecuperarPass"
+                android:text="@string/msg_recuperar_login"
+                app:fontFamily="@font/quicksand_bold_italic"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            app:fontFamily="@font/quicksand_bold"
+            android:background="@drawable/bg_borde_celeste"
+            android:text="@string/enter"
+            android:textColor="@color/cns_celeste" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

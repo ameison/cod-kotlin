@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginStart="7dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginEnd="7dp"
+    android:background="@drawable/round_ads_provider_list"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/numStars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cns_rojo"
+                android:layout_gravity="center_vertical"
+                android:textSize="17sp"
+                app:fontFamily="@font/quicksand_bold" />
+
+            <ImageView
+                android:id="@+id/icoStar"
+                android:layout_marginStart="3dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/estrella_roja" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:paddingStart="7dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cns_celeste"
+                android:text="@string/anuncios"
+                android:textSize="17sp"
+                app:fontFamily="@font/quicksand_bold" />
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/closeBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/close_btn" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contenedor" />
+
+
+</RelativeLayout>
